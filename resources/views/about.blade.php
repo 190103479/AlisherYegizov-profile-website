@@ -68,7 +68,7 @@
 
         <div class="section-title">
           <h2>About</h2>
-          <p>Hello! I am second year student of Suleiman Demirel University, and I am from Aktobe, Kazakhstan. I am interesting to write codes, solve problems and create awesome websites with creative design. Below is brief description about me and my skills. </p>
+          <p>Hello! I am second year student of <strong>Suleiman Demirel University</strong>, and I am from Aktobe, Kazakhstan. I am interesting to write codes, solve problems and create awesome websites with creative design. Below is brief description about me and my skills. </p>
         </div>
 
         <div class="row">

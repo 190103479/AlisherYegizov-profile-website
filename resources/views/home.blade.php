@@ -60,7 +60,7 @@
   <section id="hero" class="d-flex align-items-center">
     <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
       <h1>Alisher Yegizov</h1>
-      <h2>I'm a student of Suleiman Demirel University</h2>
+      <h2>I'm a student of <strong>Suleiman Demirel University</strong></h2>
       <a href="{{ route('about')}}" class="btn-about">About Me</a>
     </div>
   </section>
