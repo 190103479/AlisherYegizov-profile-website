@@ -16,21 +16,25 @@ This is my project about CV portfolio Website, where you can introduce interesti
 
 ## SECOND PAGE - ABOUT
 This is my second page.
+
+### INFO PART 
+
 <img src="images/about.png" width="900">
 
 About me.
 
-### SECOND PAGE - SKILL
+### SKILL PART 
+
 <img src="images/about-sc.png" width="900">
 
 About skills.
 
 ## THIRD PAGE - PORTFOLIO
 This is my third page about my work.
+
 <img src="images/portfolio.png" width="900">
 
 ## FOURTH PAGE - CONTACT
-
 Last page to Contact to me.
 
-<img src="images/contact.png" width="400">
+<img src="images/contact.png" width="900">
