@@ -92,7 +92,7 @@
               <div class="col-lg-6">
                 <ul>
                   <li><i class="bi bi-rounded-right"></i> <strong>Age:</strong> 19</li>
-                  <li><i class="bi bi-rounded-right"></i> <strong>School:</strong> BIL/KTL</li>
+                  <li><i class="bi bi-rounded-right"></i> <strong>Graduated School:</strong> BIL/KTL</li>
                   <li><i class="bi bi-rounded-right"></i> <strong>Email:</strong> 190103479@stu.sdu.edu.kz</li>
                   <li><i class="bi bi-rounded-right"></i> <strong>Specialization:</strong> IT</li>
                 </ul>
