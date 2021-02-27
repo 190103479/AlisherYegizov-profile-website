@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\DB;
+
+use App\Models\Post;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,3 +33,11 @@ Route::get('/portfolio', function () {
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
+
+Route::get('/post/create', function () {
+    DB::table('posts')->insert([
+         'title' => 'My title',
+         'body' => 'My body'
+    ]);
+});
+
