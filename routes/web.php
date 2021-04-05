@@ -3,9 +3,11 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
 
+
 use App\Models\Post;
 
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\MailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -52,3 +54,5 @@ Route::get('post/create', function(){
 Route::post('post/create', [BlogController::class,'store'])->name('add-blog');
 
 Route::get('post/{id}', [BlogController::class, 'get_post']);
+
+Route::get('mail/send',[MailController::class,'send']);
