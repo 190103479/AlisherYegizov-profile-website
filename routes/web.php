@@ -8,6 +8,7 @@ use App\Models\Post;
 
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\MailController;
+use App\Http\Controllers\UploadController;
 
 /*
 |--------------------------------------------------------------------------
@@ -56,3 +57,6 @@ Route::post('post/create', [BlogController::class,'store'])->name('add-blog');
 Route::get('post/{id}', [BlogController::class, 'get_post']);
 
 Route::get('mail/send',[MailController::class,'send']);
+
+Route::get('/multiuploads',[UploadController::class,'uploadForm'])->name('upload');
+Route::post('/multiuploads',[UploadController::class,'uploadSubmit']);
