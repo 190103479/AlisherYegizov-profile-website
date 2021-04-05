@@ -54,9 +54,9 @@ Route::get('post/create', function(){
 
 Route::post('post/create', [BlogController::class,'store'])->name('add-blog');
 
-Route::get('post/{id}', [BlogController::class, 'get_post']);
+Route::get('post/{id}', [BlogController::class, 'get_post']); 
 
-Route::get('mail/send',[MailController::class,'send']);
+Route::get('mail/send',[MailController::class,'send'])->name('mailing');
 
 Route::get('/multiuploads',[UploadController::class,'uploadForm'])->name('upload');
 Route::post('/multiuploads',[UploadController::class,'uploadSubmit']);

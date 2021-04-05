@@ -1,4 +1,4 @@
-Hello <i>{{ $demo->receiver }}</i>,
+Hi!  <i>{{ $demo->receiver }}</i>,
 <p>This is a demo email for testing purposes! Also, it's the HTML varsion</p>
 
 <p><u> Demo object values:</u></p>
