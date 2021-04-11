@@ -63,19 +63,25 @@ Route::get('/person',[UploadController::class,'index']);
 Route::get('/person/upload',[UploadController::class,'uploadForm'])->name('upload');
 Route::post('/person/upload',[UploadController::class,'uploadSubmit']);
 
-Route::get(' about/{lang}', function($lang){
+Route::get(' /{lang}/about', function($lang){
     App::setlocale($lang);
     return view('about');
 });
-Route::get(' portfolio/{lang}', function($lang){
+Route::get(' /{lang}/portfolio', function($lang){
     App::setlocale($lang);
     return view('portfolio');
 });
-Route::get(' contact/{lang}', function($lang){
+Route::get(' {lang}/contact', function($lang){
     App::setlocale($lang);
     return view('contact');
 });
-Route::get(' /{lang}', function($lang){
+Route::get(' /', function(){
+    
+    return view('welcome');
+    
+});
+Route::get(' {lang}/home', function($lang){
     App::setlocale($lang);
     return view('home');
+    
 });
