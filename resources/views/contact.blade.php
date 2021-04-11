@@ -36,15 +36,15 @@
   <header id="header" class="fixed-top">
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
-      <h1 class="logo me-auto me-lg-0"><a href="{{ route('home')}}">Alisher</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="{{ route('home')}}">{{__('lang.title')}}</a></h1>
       
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-        <li><a  href="{{route('home')}}">Home</a></li>
-          <li><a  href="{{ route('about')}}">About</a></li>
-          <li><a  href="{{ route('portfolio')}}">Portfolio</a></li>
-          <li><a  class="active" href="{{ route('contact')}}">Contact</a></li>
+        <li><a  href="{{route('home')}}">{{__('lang.home')}}</a></li>
+          <li><a  href="{{ route('about')}}">{{__('lang.about')}}</a></li>
+          <li><a  href="{{ route('portfolio')}}">{{__('lang.port')}}</a></li>
+          <li><a  class="active" href="{{ route('contact')}}">{{__('lang.cont')}}</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -67,8 +67,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Contact</h2>
-          <p>Available at any time for any questions and requests.</p>
+          <h2>{{__('lang.cont')}}</h2>
+          <p>{{__('lang.co')}}</p>
         </div>
 
         
@@ -79,19 +79,19 @@
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Zarechniy Street, Aktobe, AQT 12250</p>
+                <h4>{{__('lang.location')}}</h4>
+                <p>{{__('lang.zar')}}</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
+                <h4>{{__('lang.email')}}</h4>
                 <p>190103479@stu.sdu.edu.kz</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
+                <h4>{{__('lang.call')}}</h4>
                 <p>+7 777 455 53 22</p>
               </div>
 
@@ -121,7 +121,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">{{__('lang.send')}}</button></div>
             </form>
 
           </div>

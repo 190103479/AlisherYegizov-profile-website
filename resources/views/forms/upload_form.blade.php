@@ -21,7 +21,7 @@
 @endif
 <div class="container">
     <div class="row">
-  <div class="col-md-8"><h2>Laravel Multiple File Uploading</h2></div>
+  <div class="col-md-8"><h2>Laravel File Uploading</h2></div>
 
     </div>
     <br>
@@ -38,7 +38,7 @@
                     <label for="Person surname"> Surname:</label>
                     <input type="text" name="surname" class="form-control" placeholder="Surname">
                 </div> <div class="form-group">
-                    <label for="Person mail"> Name:</label>
+                    <label for="Person mail"> Email:</label>
                     <input type="text" name="email" class="form-control" placeholder="Email">
                 </div>
                 <label for="Person photo">Photo:</label>

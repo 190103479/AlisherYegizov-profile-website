@@ -36,15 +36,15 @@
   <header id="header" class="fixed-top">
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
-      <h1 class="logo me-auto me-lg-0"><a href="{{ route('home')}}">Alisher</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="{{ route('home')}}">{{__('lang.title')}}</a></h1>
       
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-        <li><a  href="{{route('home')}}">Home</a></li>
-          <li><a  href="{{ route('about')}}">About</a></li>
-          <li><a class="active"  href="{{ route('portfolio')}}">Portfolio</a></li>
-          <li><a href="{{ route('contact')}}">Contact</a></li>
+        <li><a  href="{{route('home')}}">{{__('lang.home')}}</a></li>
+          <li><a  href="{{ route('about')}}">{{__('lang.about')}}</a></li>
+          <li><a class="active"  href="{{ route('portfolio')}}">{{__('lang.port')}}</a></li>
+          <li><a href="{{ route('contact')}}">{{__('lang.cont')}}</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -67,8 +67,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>I am interested in creating creative projects with good functionality and design. I have several projects with different languages with their own features. The project types are shown below.</p>
+          <h2>{{__('lang.port')}}</h2>
+          <p>{{__('lang.po')}}</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">

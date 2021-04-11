@@ -32,15 +32,15 @@
   <header id="header" class="fixed-top">
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
-      <h1 class="logo me-auto me-lg-0"><a href="{{route('home')}}">Alisher</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="{{route('home')}}">{{__('lang.title')}}</a></h1>
       
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="active" href="{{route('home')}}">Home</a></li>
-          <li><a href="{{ route('about')}}">About</a></li>
-          <li><a href="{{ route('portfolio')}}">Portfolio</a></li>
-          <li><a href="{{ route('contact')}}">Contact</a></li>
+          <li><a class="active" href="{{route('home')}}">{{__('lang.home')}}</a></li>
+          <li><a href="{{ route('about')}}">{{__('lang.about')}}</a></li>
+          <li><a href="{{ route('portfolio')}}">{{__('lang.port')}}</a></li>
+          <li><a href="{{ route('contact')}}">{{__('lang.cont')}}</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -59,9 +59,9 @@
   
   <section id="hero" class="d-flex align-items-center">
     <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Alisher Yegizov</h1>
-      <h2>I'm a student of Suleiman Demirel University</h2>
-      <a href="{{ route('about')}}" class="btn-about">About Me</a>
+      <h1>{{__('lang.name')}}</h1>
+      <h2>{{__('lang.desc')}}</h2>
+      <a href="{{ route('about')}}" class="btn-about">{{__('lang.abme')}}</a>
     </div>
   </section>
 

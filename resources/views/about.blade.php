@@ -36,15 +36,15 @@
   <header id="header" class="fixed-top">
     <div class="container-fluid d-flex justify-content-between align-items-center">
 
-      <h1 class="logo me-auto me-lg-0"><a href="{{route('home')}}">Alisher</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="{{route('home')}}">{{__('lang.title')}}</a></h1>
       
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a  href="{{route('home')}}">Home</a></li>
-          <li><a class="active" href="{{ route('about')}}">About</a></li>
-          <li><a href="{{ route('portfolio')}}">Portfolio</a></li>
-          <li><a href="{{ route('contact')}}">Contact</a></li>
+          <li><a  href="{{route('home')}}">{{__('lang.home')}}</a></li>
+          <li><a class="active" href="{{ route('about')}}">{{__('lang.about')}}</a></li>
+          <li><a href="{{ route('portfolio')}}">{{__('lang.port')}}</a></li>
+          <li><a href="{{ route('contact')}}">{{__('lang.cont')}}</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
@@ -67,8 +67,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>About</h2>
-          <p>Hello! I am second year student of <strong>Suleiman Demirel University</strong>, and I am from Aktobe, Kazakhstan. I am interesting to write codes, solve problems and create awesome websites with creative design. Below is brief description about me and my skills. </p>
+          <h2>@lang('lang.about')</h2>
+          <p>@lang('lang.ab1') </p>
         </div>
 
         <div class="row">
@@ -76,31 +76,29 @@
             <img src="https://pixnio.com/free-images/2017/03/23/2017-03-23-13-49-09.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>Student &amp; Creator/Designer</h3>
+            <h3>@lang('lang.st')</h3>
             <p class="font-italic">
-            I am currently a student, so I am now deeply studying coding languages in order to become a creator in the future.
+            @lang('lang.cur')
             </p>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-rounded-right"></i> <strong>Birthday:</strong> 6 May 2001</li>
-                  <li><i class="bi bi-rounded-right"></i> <strong>Website:</strong> www.github.com</li>
-                  <li><i class="bi bi-rounded-right"></i> <strong>Phone:</strong> +7 777 455 53 22</li>
-                  <li><i class="bi bi-rounded-right"></i> <strong>City:</strong> Aktobe, Kazakhstan</li>
+                  <li><i class="bi bi-rounded-right"></i> {{__('lang.o1')}}</li>
+                  <li><i class="bi bi-rounded-right"></i> {{__('lang.o2')}}</li>
+                  <li><i class="bi bi-rounded-right"></i> {{__('lang.o3')}}</li>
+                  <li><i class="bi bi-rounded-right"></i> {{__('lang.o4')}}</li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-rounded-right"></i> <strong>Age:</strong> 19</li>
-                  <li><i class="bi bi-rounded-right"></i> <strong>Graduated School:</strong> BIL/KTL</li>
-                  <li><i class="bi bi-rounded-right"></i> <strong>Email:</strong> 190103479@stu.sdu.edu.kz</li>
-                  <li><i class="bi bi-rounded-right"></i> <strong>Specialization:</strong> IT</li>
+                  <li><i class="bi bi-rounded-right"></i> {{__('lang.o5')}}</li>
+                  <li><i class="bi bi-rounded-right"></i> {{__('lang.o6')}}</li>
+                  <li><i class="bi bi-rounded-right"></i> {{__('lang.o7')}}</li>
+                  <li><i class="bi bi-rounded-right"></i> {{__('lang.o8')}}</li>
                 </ul>
               </div>
             </div>
-            <p>
-            I graduated BIL-Aktobe in 2019. Since my studies in BIL, I've been interested interested in IT. I think that, in the future, we will all need to know at least one coding language. Coding, in the simplest of terms, is telling a computer what you want it to do, which involves typing in step-by-step commands for the computer to follow. Learning to code has been likened to learning a foreign language, or perhaps more specifically a family of foreign languages.
-            </p>
+            <p>@lang('lang.ab2')</p>
           </div>
         </div>
 
@@ -112,8 +110,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Skills</h2>
-          <p>These are the LEVELS of knowledge of different languages that I have studied and am studying for 2 years at the university, and there are we have: language for data, such us SQL; also have JAVA object-oriented programming language; and Front-End and Back-End languages;</p>
+          <h2>{{__('lang.sk')}}</h2>
+          <p>{{__('lang.sko')}}</p>
         </div>
 
         <div class="row skills-content">

@@ -21,7 +21,7 @@ use App\Http\Controllers\UploadController;
 |
 */
 
-Route::get('/', function () {
+Route::get('home/', function () {
     return view('home');
 })->name('home');
 
@@ -58,5 +58,24 @@ Route::get('post/{id}', [BlogController::class, 'get_post']);
 
 Route::get('mail/send',[MailController::class,'send'])->name('mailing');
 
-Route::get('/multiuploads',[UploadController::class,'uploadForm'])->name('upload');
-Route::post('/multiuploads',[UploadController::class,'uploadSubmit']);
+Route::get('/person',[UploadController::class,'index']);
+
+Route::get('/person/upload',[UploadController::class,'uploadForm'])->name('upload');
+Route::post('/person/upload',[UploadController::class,'uploadSubmit']);
+
+Route::get(' about/{lang}', function($lang){
+    App::setlocale($lang);
+    return view('about');
+});
+Route::get(' portfolio/{lang}', function($lang){
+    App::setlocale($lang);
+    return view('portfolio');
+});
+Route::get(' contact/{lang}', function($lang){
+    App::setlocale($lang);
+    return view('contact');
+});
+Route::get(' /{lang}', function($lang){
+    App::setlocale($lang);
+    return view('home');
+});

@@ -8,6 +8,12 @@ use Illuminate\Http\Request;
 
 class UploadController extends Controller
 {
+    public function index(){
+        $person =Item::all();
+        return view('forms.index')->with(['person' => $person]);
+    }
+    
+    
     public function uploadForm(){
     return view('forms.upload_form');
 }
